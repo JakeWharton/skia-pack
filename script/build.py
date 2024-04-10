@@ -26,6 +26,7 @@ def main():
 
   args += [
     'target_cpu="' + machine + '"',
+    'skia_use_egl=true',
     'skia_use_system_expat=false',
     'skia_use_system_libjpeg_turbo=false',
     'skia_use_system_libpng=false',
